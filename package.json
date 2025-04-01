@@ -1,13 +1,33 @@
 {
-  "name": "Demo Functions App",
+  "name": "demo-functions-app",
+  "version": "0.1.0",
+  "description": "A demo serverless app that can be deployed on Vercel.",
+  "keywords": [
+    "Demo",
+    "Hono",
+    "Vercel",
+    "Serverless",
+    "API"
+  ],
+  "homepage": "https://github.com/david-github-repo/DemoFunctionsApp#readme",
+  "bugs": {
+    "url": "https://github.com/david-github-repo/DemoFunctionsApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-github-repo/DemoFunctionsApp.git"
+  },
+  "license": "ISC",
+  "author": "David",
+  "type": "module",
+  "main": "build/main.js",
   "scripts": {
-    "start": "vercel dev",
-    "deploy": "vercel"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "hono": "^4.7.5"
   },
   "devDependencies": {
-    "vercel": "^32.4.1"
+    "typescript": "^5.8.2"
   }
 }
